@@ -79,7 +79,7 @@ bot.on('text', async (ctx) => {
             ctx.reply(messages.genericError)
         }
     } else {
-        ctx.reply(helpMessage)
+        ctx.reply(messages.help)
     }
 })
 
